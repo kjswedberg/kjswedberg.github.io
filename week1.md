@@ -15,4 +15,5 @@ This morning, I am learning basic [Markdown](https://www.markdownguide.org/basic
   * [x] Quick access to single code lines 
   * [x] multi-lines code lines with language highlighting 
 
-After learning about Markdown, I started reading though [this article](https://towardsdatascience.com/this-will-make-you-a-command-line-ninja-93a51cdb16b1), so that I could become more familar with command lines. I also set up a Research Workspace account.
+I looked though [this article](https://towardsdatascience.com/this-will-make-you-a-command-line-ninja-93a51cdb16b1), so that I could become more familar with command lines. I also set up a Research Workspace account. Afterwhich, I went though some Research Workspace documentation located at https://researchworkspace.com/help/Overview.html and at https://www.axiomdatascience.com/best-practices/MetadataandDocumentation.html).
+
