@@ -7,10 +7,10 @@ to use as a blog. The purpose for this blog is so that I can log my summer activ
 at ACEP.
 
 ### Tuesday, May 19, 2020
-This morning, I am learning basic [Markdown](https://www.markdownguide.org/basic-syntax/). Things that I became familar with between 
-yesterday and today are creating headings, lists, and adding web links. Yesterday, I became familiar with the basic Markdown that is 
-discussed in the [GitHub Guides](https://guides.github.com/features/mastering-markdown/). Today, I became familier with the information 
-about basic Markdown that is discussed [here](https://www.markdownguide.org/basic-syntax/).
+This morning, I am learning basic [Markdown](https://www.markdownguide.org/basic-syntax/).  Yesterday, I had become familiar with the 
+basic Markdown that is discussed in the [GitHub Guides](https://guides.github.com/features/mastering-markdown/). Today, I am becoming 
+familier with the information about basic Markdown that is discussed [here](https://www.markdownguide.org/basic-syntax/) and I am 
+reviewing the information that I had learned about Markdown yesterday.
 
 * Things to learn in basic Markdown:
   * [x] Headers / Subheaders 
