@@ -17,4 +17,7 @@ This morning, I am learning basic [Markdown](https://www.markdownguide.org/basic
 
 I started to become familar with Research Workspace by first setting up a Research Workspace account. Afterwhich, I went though some Research Workspace documentation located at https://researchworkspace.com/help/Overview.html and at https://www.axiomdatascience.com/best-practices/DataManagementBestPractices.html#organizing-folders-within-a-project. 
 
-I also read though [this article](https://towardsdatascience.com/this-will-make-you-a-command-line-ninja-93a51cdb16b1), which talks about using command lines. 
+I also read though [this article](https://towardsdatascience.com/this-will-make-you-a-command-line-ninja-93a51cdb16b1), which was posted to Discord and is about using command lines. I had done very simple tasks using the command line terminal during high school on Windows 8, however a lot of the stuff discussed in the article was new. So I found an tutorial about the Linux command line for begineers that I am planning on going through sometime. That tutural is located [here](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview).
+
+
+
