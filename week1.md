@@ -17,5 +17,5 @@ reviewing the information that I had learned about Markdown yesterday.
   * [x] Lists 
   * [x] Web links 
   * [x] check lists 
-  * [ ] Quick access to single code lines 
-  * [ ] multi-lines code lines with language highlighting 
+  * [x] Quick access to single code lines 
+  * [x] multi-lines code lines with language highlighting 
