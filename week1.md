@@ -4,7 +4,7 @@ This week is an orientation week.
 ## Monday, May 18, 2020
 Today, I set up a GitHub account and I went through the GitHub Guides. While going through the guides, I set up this website to use as a blog. The purpose for this blog is so that I can log my summer activities that are related to my internship at ACEP.
 
-I also verified that I could access Discord on my laptop and that I could access VMware Horizon HTML Access at [https://vdi.alaska.edu/]. 
+I also verified that I could access Discord on my laptop and that I could access VMware Horizon HTML Access at [https://vdi.alaska.edu/](https://vdi.alaska.edu/). 
 
 ## Tuesday, May 19, 2020
 This morning, I learned basic [Markdown](https://www.markdownguide.org/basic-syntax/). Yesterday, I had become familiar with the basic Markdown that is discussed in the [GitHub Guides](https://guides.github.com/features/mastering-markdown/). Today, I became familier with the information about basic Markdown that is discussed [here](https://www.markdownguide.org/basic-syntax/) and I am reviewing the information that I had learned about Markdown yesterday. 
