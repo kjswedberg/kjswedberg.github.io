@@ -12,10 +12,10 @@ yesterday and today are creating headings, lists, and adding web links. Yesterda
 discussed in the [GitHub Guides](https://guides.github.com/features/mastering-markdown/). Today, I became familier with the information 
 about basic Markdown that is discussed [here](https://www.markdownguide.org/basic-syntax/).
 
-Things to learn in basic Markdown <br>
-* [x] Headers / Subheaders <br>
-* [x] Lists <br>
-* [x] Web links <br>
-* [x] check lists <br>
-* [ ] Quick access to single code lines <br>
-* [ ] multi-lines code lines with language highlighting <br>
+* Things to learn in basic Markdown:
+  * [x] Headers / Subheaders 
+  * [x] Lists 
+  * [x] Web links 
+  * [x] check lists 
+  * [ ] Quick access to single code lines 
+  * [ ] multi-lines code lines with language highlighting 
