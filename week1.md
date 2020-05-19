@@ -15,5 +15,6 @@ This morning, I am learning basic [Markdown](https://www.markdownguide.org/basic
   * [x] Quick access to single code lines 
   * [x] multi-lines code lines with language highlighting 
 
-I looked though [this article](https://towardsdatascience.com/this-will-make-you-a-command-line-ninja-93a51cdb16b1), so that I could become more familar with command lines. I also set up a Research Workspace account. Afterwhich, I went though some Research Workspace documentation located at https://researchworkspace.com/help/Overview.html and at https://www.axiomdatascience.com/best-practices/DataManagementBestPractices.html#organizing-folders-within-a-project.
+I started to become familar with Research Workspace by first setting up a Research Workspace account. Afterwhich, I went though some Research Workspace documentation located at https://researchworkspace.com/help/Overview.html and at https://www.axiomdatascience.com/best-practices/DataManagementBestPractices.html#organizing-folders-within-a-project. 
 
+I also read though [this article](https://towardsdatascience.com/this-will-make-you-a-command-line-ninja-93a51cdb16b1), which talks about using command lines. 
