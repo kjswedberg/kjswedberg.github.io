@@ -6,3 +6,16 @@ Today, I set up a GitHub account and I went through the GitHub Guides. While goi
 to use as a blog. The purpose for this blog is so that I can log my summer activities that are related to my internship
 at ACEP.
 
+### Tuesday, May 19, 2020
+This morning, I am learning basic [Markdown](https://www.markdownguide.org/basic-syntax/). Things that I became familar with between 
+yesterday and today are creating headings, lists, and adding web links. Yesterday, I became familiar with the basic Markdown that is 
+discussed in the [GitHub Guides](https://guides.github.com/features/mastering-markdown/). Today, I became familier with the information 
+about basic Markdown that is discussed [here](https://www.markdownguide.org/basic-syntax/).
+
+Things to learn in basic Markdown <br>
+* [x] Headers / Subheaders <br>
+* [x] Lists <br>
+* [x] Web links <br>
+* [x] check lists <br>
+* [ ] Quick access to single code lines <br>
+* [ ] multi-lines code lines with language highlighting <br>
