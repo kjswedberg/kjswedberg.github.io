@@ -23,5 +23,7 @@ I was introduced to the Thermal Decay Test Collection Kit over Zoom during the a
 
 I also read though [this article](https://towardsdatascience.com/this-will-make-you-a-command-line-ninja-93a51cdb16b1), which was posted to Discord. The article is about using command lines. I had done very simple tasks using the command line terminal during high school on Windows 8, however a lot of the information in the article was new to me. So I found an tutorial about the Linux command line for begineers that I am planning on going through sometime. That tutural is located [here](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview).
 
+## Wednesday, May 20, 2020
 
+This morning, I started out by going through the ERDC Purchase Request Document and marking down the information that I could find for power usage. I was not able to find the power usage for all of the items. I was able to find how much power was supplied by any power supplies, the approximate output power supplied by the 6 V solar panel, the rated power range for the 3 pin Female DC Power Jack Panel, and approximate power used by the Strip of 150 Neopixels. For the 22AWG solid core hook-up wire, I was able to find a current rating of 3.0 A. 
 
