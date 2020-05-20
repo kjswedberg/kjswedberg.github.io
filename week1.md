@@ -9,7 +9,7 @@ I also verified that I could access Discord on my laptop, use the Discord voice 
 ## Tuesday, May 19, 2020
 This morning, I learned basic [Markdown](https://www.markdownguide.org/basic-syntax/). Yesterday, I had become familiar with the basic Markdown that is discussed in the [GitHub Guides](https://guides.github.com/features/mastering-markdown/). Today, I became familier with the information about basic Markdown that is discussed [here](https://www.markdownguide.org/basic-syntax/) and I am reviewing the information that I had learned about Markdown yesterday. 
 
-* Things to learn in basic Markdown:
+* Things learned in basic Markdown:
   * [x] Headers / Subheaders 
   * [x] Lists 
   * [x] Web links 
@@ -27,11 +27,6 @@ I also read though [this article](https://towardsdatascience.com/this-will-make-
 
 This morning, I started out by going through the ERDC Purchase Request Document and marking down the information that I could find for power usage. I was not able to find the power usage for all of the items. I was able to find how much power was supplied by any power supplies, the approximate output power supplied by the 6 V solar panel, the rated power range for the 3 pin Female DC Power Jack Panel, and approximate power used by the Strip of 150 Neopixels. For the 22AWG solid core hook-up wire, I was able to find a current rating of 3.0 A. 
 
-During the afternoon, I was assigned a daily quest to summarize the differences between backups and archives and the differences between realtime, near-realtime, and batch. The main difference between backup and archives is that backups are copies of data to be used if something happens to the original data and archives are inactive data that is being kept for future reference. Realtime is where the data is inputted and the processed data is outputted near-instantaneously later. Near-realtime is where the data is inputted and processed data is outputted at a slower rate than realtime. Batch is where the data is inputted and stored so that all of the data can be processed and outputted together at a much later time. The resources that I used for this quest are listed below. <br>
-[https://www.solarwindsmsp.com/content/backup-archive#](https://www.solarwindsmsp.com/content/backup-archive#) <br>
-[https://www.backblaze.com/blog/data-backup-vs-archive/](https://www.backblaze.com/blog/data-backup-vs-archive/) <br>
-[https://www.techopedia.com/definition/31742/real-time-data-processing](https://www.techopedia.com/definition/31742/real-time-data-processing) <br>
-[https://www.skylinetechnologies.com/Blog/Skyline-Blog/November_2019/realtime-vs-near-realtime-data-pros-cons](https://www.skylinetechnologies.com/Blog/Skyline-Blog/November_2019/realtime-vs-near-realtime-data-pros-cons) <br>
-[https://blog.syncsort.com/2015/11/big-data/the-difference-between-real-time-near-real-time-and-batch-processing-in-big-data/](https://blog.syncsort.com/2015/11/big-data/the-difference-between-real-time-near-real-time-and-batch-processing-in-big-data/) <br>
+During the afternoon, I was assigned a daily quest to make slides that summarize the differences between backups and archives and the differences between realtime, near-realtime, and batch. 
 
 
