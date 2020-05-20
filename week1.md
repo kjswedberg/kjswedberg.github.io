@@ -27,6 +27,7 @@ I also read though [this article](https://towardsdatascience.com/this-will-make-
 
 This morning, I started out by going through the ERDC Purchase Request Document and marking down the information that I could find for power usage. I was not able to find the power usage for all of the items. I was able to find how much power was supplied by any power supplies, the approximate output power supplied by the 6 V solar panel, the rated power range for the 3 pin Female DC Power Jack Panel, and approximate power used by the Strip of 150 Neopixels. For the 22AWG solid core hook-up wire, I was able to find a current rating of 3.0 A. 
 
-During the afternoon, I was assigned a daily quest to make slides that summarize the differences between backups and archives and the differences between realtime, near-realtime, and batch. 
+During the afternoon, I was assigned a daily quest to make slides about backups vs. archives and about 
+realtime vs. near-realtime vs. batch. 
 
 
