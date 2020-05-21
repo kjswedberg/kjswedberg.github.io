@@ -21,13 +21,15 @@ I started to become familar with Research Workspace by first setting up a Resear
 
 I was introduced to the Thermal Decay Test Collection Kit over Zoom during the afternoon. The introduction included information regarding the collectors, a centralizer, end nodes (433 mHz temperature and humidity sensors), and a RPI real time clock. The hardware goals for the project include modeling the designed system to create a plan of attack and to document everything. Technical documentation goals include determing how much power it uses, how long it will last using its back-up batteries, and instrucions on assembling and deploying the system.
 
-I also read though [this article](https://towardsdatascience.com/this-will-make-you-a-command-line-ninja-93a51cdb16b1), which was posted to Discord. The article is about using command lines. I had done very simple tasks using the command line terminal during high school on Windows 8, however a lot of the information in the article was new to me. So I found an tutorial about the Linux command line for begineers that I am planning on going through sometime. That tutural is located [here](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview).
+I also read though [this article](https://towardsdatascience.com/this-will-make-you-a-command-line-ninja-93a51cdb16b1), which was posted to Discord. The article is about using command lines. I had done very simple tasks using the command line terminal during high school on Windows 8, however a lot of the information in the article was new to me. So I found an tutorial about the Linux command line for begineers that I am planning on going through sometime. That tutorial is located [here](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview).
 
 ## Wednesday, May 20, 2020
 
-This morning, I started out by going through the ERDC Purchase Request Document and marking down the information that I could find for power usage. I was not able to find the power usage for all of the items. I was able to find how much power was supplied by any power supplies, the approximate output power supplied by the 6 V solar panel, the rated power range for the 3 pin Female DC Power Jack Panel, and approximate power used by the Strip of 150 Neopixels. For the 22AWG solid core hook-up wire, I was able to find a current rating of 3.0 A. 
+This morning, I started out by going through the ERDC Purchase Request Document and marking down the information that I could find for power usage. I was not able to find the power usage for all of the items. I was able to find how much power was supplied by any power supplies, the approximate output power supplied by the 6 V solar panel, the rated power range for the 3 pin Female DC Power Jack Panel, and approximate power used by the Strip of 150 Neopixels. For the 22AWG solid core hook-up wire, I was able to find a current rating of 3.0 A, assuming that it uses a rubber/vinyl conductor. 
 
-During the afternoon, I was assigned a daily quest to make slides about backups vs. archives and about 
-realtime vs. near-realtime vs. batch. 
+During the afternoon, I was assigned a daily quest to make two slides about backups vs. archives and about 
+realtime vs. near-realtime vs. batch. I also read the the tutorial that I found yesturday about Linux command lines, since there is a possibility that I may be using them.
 
+## Thursday, May 21, 2020.
+This morning, I reviewed some of the power usage information that I found yesturday for the ERDC Purchase Request Document. Using that information, I made a parts list of the parts that I would need to measure the power that the Raspberry Pi's would use. The parts on the list are mostly adapters that will allow for a maximum current of 3.5 A and that can work with the USB multimeter that is on the ERDC Purchase Request Document.
 
