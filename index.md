@@ -5,3 +5,4 @@ website. On this website, you can find updates on the projects that I working on
 
 * [About Me](http://kjswedberg.github.io/aboutme)
 * [Week 1](http://kjswedberg.github.io/week1)
+* [Week 2](http://kjswedberg.github.io/week2)
