@@ -30,9 +30,10 @@ This morning, I started out by going through the ERDC Purchase Request Document 
 During the afternoon, I was assigned a daily quest to make two slides about backups vs. archives and about 
 realtime vs. near-realtime vs. batch. I also read the the tutorial that I found yesturday about Linux command lines, since there is a possibility that I may be using them.
 
-## Thursday, May 21, 2020.
-This morning, I reviewed some of the power usage information that I found yesturday for the ERDC Purchase Request Document. Using that information, I made a parts list of the parts that I would need to measure the power that the Raspberry Pi's would use. The parts on the list are mostly adapters that will allow for a maximum current of 3.5 A and that can work with the USB multimeter that is on the ERDC Purchase Request Document.
+## Thursday, May 21, 2020
+This morning, I reviewed some of the power usage information that I found yesturday for the ERDC Purchase Request Document. Using that information, I made a parts list of the parts that I would need to measure the power that the Raspberry Pi's would use. This way, I could start thinking about how I would measure the total power used by the system that was built for the project. If the power used by each Raspberry Pi was measured later this summer, having this list and an idea of how to measure the power would be helpful.  
 
 During the afternoon, I attending an ACEP meeting over Zoom. After the meeting, I started working through a tutorial about Python that is located [here](https://docs.python.org/3/tutorial/index.html). The main thing that I focused on was syntax. This was because the syntax was the main difference between Python and other programming languages that I have used in the past. The other main difference that I noticed is that some built-in function have different names in Python than they do in C++ and Matlab.
 
-
+## Friday, May 22, 2020
+Today, I continued to learn about Python. I continued to work through the tutorial that I found yesterday. I also reviewed what I had learned about Python yesterday by using the Python resource that is located [here](https://www.pythoncheatsheet.org/).
