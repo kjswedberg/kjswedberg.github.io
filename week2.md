@@ -16,9 +16,18 @@ During the afternoon, I set up a Chromebook with Linux. After installing Linux, 
 ## Thursday, May 28, 2020
 This morning, I spent about an hour trying to figure out how to push an image to Docker Hub. Using the two tutorials that I had found yesturday, I was able to push an image to Docker Hub. The syntax on the [second tutorial](https://docker-curriculum.com/#our-first-image) worked. However, when I went to view the application in a browser, the browser did not find the application to display.  Currently, viewing the application in a browser is the only thing that I cannot get to work. 
 
-Late morning and during the afternoon, I worked on the Shelly 1PM power meter. I connected the power meter to an extention cord. This enables me to be able to switch what load is attached to it. It also has a switch attached to it, so that the load can be turned on or off. The power meter can be controlled from the Shelly Cloud app over WiFi. The amount of power that the load uses is read from the app. The app can also turn the load on or off. When using the app to control the load or to read the load's power usage, there is a delay time that ranges from approximately 6 seconds to 12 seconds. 
+Late morning and during the afternoon, I worked on the Shelly 1PM power meter. I connected the power meter to an extention cord. This enables me to be able to switch what load is attached to it. It also has a switch attached to it, so that the load can be turned on or off. Figure 1 shows a picture of how the power meter was set-up and Figure 2 is the schematic showing how I set-up the power meter. The power meter can be controlled from the Shelly Cloud app over WiFi. The amount of power that the load uses is read from the app. The app can also turn the load on or off. When using the app to control the load or to read the load's power usage, there is a delay time that ranges from approximately 6 seconds to 12 seconds. 
 
-![Power_Meter_Assembled](https://user-images.githubusercontent.com/65566903/83200241-6035fc00-a0ef-11ea-9c0c-948faa3fbfef.JPG)
-**Figure 1: The set-up for the power Shelly 1PM power meter**
+![Power_Meter_Assembled](https://user-images.githubusercontent.com/65566903/83200241-6035fc00-a0ef-11ea-9c0c-948faa3fbfef.JPG) <br>
+**Figure 1: The set-up for the Shelly 1PM power meter** <br>
 
+![Schematic](https://user-images.githubusercontent.com/65566903/83217763-f0d50200-a118-11ea-8b3e-10218a79d6c0.jpg) <br>
+**Figure 2: The schematic showing how the Shelly 1PM power meter was set-up** <br>
 
+To measure the accuracy of the Shelly 1PM meter, I measured the resistance of two doghouse heaters. Assuming that the maximum voltage that the heaters recieved was 170, I calculated the theoritical power. After confirming the the power meter ratings would not be exceeded, I measured the actual voltage with a multimeter accross the O and N pins. Using the app, I found the measured power. Using the actual voltage and the resistances, I calculated what the power should be. Figure 2 shows the graph of the theoritical, calculated, and measured power. There is a positive correlation between the resisance and the percent error between the measured power and the calculated power. As resistance increases, the percent error increases. As a result, the power meter works best for resistors smaller than approximately 570 ohms. This is shown in Figure 3. The current was also calculated for the calculated and the measured power. The percent errors between the measured currents and the calculated currents equaled the percent errors between the measured powers and the calculated powers. [This spreadsheet](https://docs.google.com/spreadsheets/d/18iAUlNeXVuwcHnIn5Dq_sifxuT0lpsdiY69VjYQrYO4/edit?usp=sharing) summarizes all of this and shows all of my calculations. 
+
+![Doghouse Heater Power Meter Graph](https://user-images.githubusercontent.com/65566903/83215880-67bbcc00-a114-11ea-933b-3366475d4155.png) <br>
+**Figure 3: The graph showing the theoritical, calculated, and measured power** <br>
+
+![Percent Error vs  Resistance (ohms)](https://user-images.githubusercontent.com/65566903/83215950-95087a00-a114-11ea-97c7-7b537ef935a7.png) <br>
+**Figure 4: The graph showing the relationship between the percent error and the resistance.** <br>
