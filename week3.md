@@ -37,6 +37,6 @@ I have not yet determined how to access the time that is associated with each me
 > **Figure 3: The Shelly1/1PM: /status meters atributes screenshot** <br>
 
 > ![image](https://user-images.githubusercontent.com/65566903/83698473-fbc2e300-a5ad-11ea-8896-f5673ca8e0b6.png) <br>
-> **Figure 4: The screenshot of the meters attributes for the Shelly1PM. ** <br>
+> **Figure 4: The screenshot of the meters attributes for the Shelly1PM.** <br>
 
 Another possible way to get the time of each measurement is configuring a custom NTP server for the Shelly 1PM and then retriving the time from that. However, there may be different delay times for the Shelly to output the data and for the time to be retrieved from the server. This might make syncing the time with the data point difficult. As a result, it would be best to continue trying to access the timestamp attribute.
