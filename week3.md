@@ -21,3 +21,12 @@ This morning, I was also introduced to the Eaton project. This project has simil
 While being introduced to the Eaton project, I was given a quest to fnd out about deadband data triggered events. Deadband is described as the domain of imput values that result in the output being zero. Having a high deadband can create issues. Based off the Allied Valve Inc. link below, some issues that can result with having a high deadband include having higher possibilities of having oscillations in the control loop and errors from load disturbances. 
 
 [https://alliedvalveinc.com/troubleshooting/common-control-valve-problems-watch/](https://alliedvalveinc.com/troubleshooting/common-control-valve-problems-watch/)
+
+## Wednesday, June 3, 2020
+This morning, I worked on proofreading the document that I started writing yesterday about how a Shelly 1PM power meter can be used to collect data. I added a section that summarizes some of the data that the Shelly 1PM collects and to show links where the user can find specifications and information about device. 
+
+I have not yet determined how to access the time that is associated with each measurement that is outputed using the command terminal. One possible solution is configuring a custom NTP server for the Shelly 1PM and then retriving the time from that. However, there may be different delay times for the Shelly to output the data and for the time to be retrieved from the server. This might make syncing the time with the data point difficult. 
+
+
+
+
