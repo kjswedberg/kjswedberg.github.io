@@ -42,3 +42,10 @@ I have not yet determined how to access the time that is associated with each me
 While trying to access the timestamp attribe, I did some research to see if there was a solution online. However, the information that I could find regarding the timestamp was very limited. It may be necessary to write a script that can calculated the timestamp from the incrementing energy counter. This would require the script to input the energy counter value, the power, and the formula that is used to find the value for the energy counter.
 
 Another possible way to get the time of each measurement is configuring a custom NTP server for the Shelly 1PM and then retriving the time from that. However, there may be different delay times for the Shelly to output the data and for the time to be retrieved from the server. This might make syncing the time with the data point difficult. As a result, it would be best to continue trying to access the timestamp attribute. 
+
+## Thursday, June 4, 2020
+Today, I worked on trying to use the data that was being from the Shelly 1PM power meter by using Telegraf and InfluxDB. I used [this site](https://gist.github.com/anoochit/5088b20dc51492b995b2da2841515052) as a reference to help me edit a Telegraf config file. After running the "Influx" and then "show databases", a database named mqtt-telegraf, which was the database specified in the Output Plugin section, did show up as a database. However, when I ran the command "telegraf --config $pwd Shelly_Data/mqtt-telegraf.conf" in the command terminal, an error message said "Error in plugin: must be an object or an array of objects." This error is shown in Figure 5. I think the error is in the Input section in the edited confg file. 
+
+![2020-06-04-144025_1280x800_scrot](https://user-images.githubusercontent.com/65566903/83825620-47e15680-a686-11ea-9863-f1b829e09cc0.png) <br>
+**Figure 5: The error that was recieved from the command terminal**
+
