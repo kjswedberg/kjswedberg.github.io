@@ -49,3 +49,7 @@ Today, I worked on trying to use the data that was being from the Shelly 1PM pow
 ![2020-06-04-144025_1280x800_scrot](https://user-images.githubusercontent.com/65566903/83825620-47e15680-a686-11ea-9863-f1b829e09cc0.png) <br>
 **Figure 5: The error that was recieved from the command terminal**
 
+I also worked on writing up the ATW content that was asked for. 
+
+## Friday, June 5, 2020
+Today, I worked with Matt Perry on troubleshooting the config file for Telegraf. The main error was the URLs not pointing to the actual IP address of the computer being used. The data format needed to be changed to value and the data type needed to be changed to float. InfluxDB also needed to be changed to a newer version. It version 1.6, but it needs to be version 1.8 for to work with Grafana. A user for InfluxDB was also created. After solving this issues, I was able to set up a data source on Grafana and then view the data on Grafana. Afterwards, I updated the document about setting up the Shelly 1PM meter for data analysis by adding how I was able to set up the data with the TIG stack.
