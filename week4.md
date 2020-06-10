@@ -20,3 +20,21 @@ I also finishd setting up the Raspberry Pi computer to collect data today. I tur
 **Figure 4: The internal temperature plot overtime from Grafana** <br>
 ![image](https://user-images.githubusercontent.com/65566903/84094390-2eebe480-a9a9-11ea-8dec-a3b7b407643c.png) <br>
 **Figure 5: The overtemperature plot overtime from Grafana** <br>
+
+## Tuesday, June 9, 2020
+Yesterday evening, the internet router got rebooted. While trying to troubleshoot why Telegraf was not liking the IP address in the config file, I rebooted the Raspberry Pi and the Shelly. Since that did not fix the issue, I looked up the IP address of the Raspberry Pi, and found that it had changed. I updated the config file and the Grafana data source with the new IP address and it started working again. Because the Shelly was restarted, the incrementing energy counter reset to start at zero. As a result, the incremening energy counter plot changed, but the other plots did not change significantly. This morning, I checked the IP for the Chromebook and that IP address did not change.
+
+I looked into seeing if it was possible to change the Raspberry Pi's address from a dynamic IP address to a static IP address. This can be done by editing the dhcpcd.conf file. I would also probally have to stop collecting data, while I am editing the config. Since it is not very often that the internet router gets rebooted, I decided leave the IP address as a dynamic IP address. If the IP address changes for other reasons, then it will need to be changed to a static IP. I do not want to risk messing up the settings of the Raspberry Pi by trying to change an IP address from dynamic to static, when a dynamic IP address is currently working to collect the data.
+
+For the majority of the work day, I focused on finishing the draft of the statement of work for the Eaton Project. I researched examples and templates, and I tried to include the information that the majority of the examples suggested included. The majority of the templates and examples use introduction/background, objective, and scope of work for categories. They suggest having one section that describes different phases and then a seperate section to describe the tasks involved with each phase. I decided to use the categories introduction/background, objective, scope of work, and tasks descriptions. I then organized what I had written yesterday into those categories. Tomorrow, I will proofread the document one more time and then share it.
+
+In the afternoon, I started finding the user manuals for the different components of the network metering system. After proofreading the statement of work document tomorrow morning, I am planning on looking through those user manuals tomorrow morning. I was able to find the user manual for the Power Epert Meter 2000 Series on the Discord site. I was able to find pdfs for the user manual for the Power Xpert Meter 2000 Series and the Foreseer 7.2.210 Server Guide by doing a google search for them. I also found a guide for Eaton's Yukon Visual T&D HMI/SCADA by doing a google search. The list below contains links to the manuals. I am not certain if the guides that I found for the Foreseer and the Visual T&D are the for the correct versions. If I have time, I may look through them anyway.
+
+* [Power Xpert Meter 2000 Series](http://m.eaton.com/ecm/groups/public/@pub/@electrical/documents/content/im02601001e.pdf) <br>
+* [Power Xpert PXM 4000/6000/8000](https://www.eaton.com/ecm/groups/public/@pub/@electrical/documents/content/im02601004e.pdf) <br>
+* [Foreseer 7.2.210 Server Guide](https://www.eaton.com/content/dam/eaton/services/eess/eess-documents/foreseer-7-2/eaton-foreseer-72210-server-guide-mn152049en.pdf) <br>
+* [Yukon Visual T&D HMI/SCADA](https://www.eaton.com/content/dam/eaton/products/utility-and-grid-solutions/grid-automation-systems/hmi-scada/yukon-visual-td-hmi-scada-br914001en.pdf) <br>
+
+Throughout the day, I checked Grafana to make sure that it was collecting data. So far, it has been able to run about 22 hours without having any problems. While on Grafana, I created more panels. In addition to the original panel with all the data fields on it, each data field now has its own dedicated panel. 
+
+
