@@ -24,9 +24,32 @@ All that needed to be done to have Telegraf send InfluxDB the data from both the
 
 This afternoon, I started working through DataCamp's Introduction to Python course.
 
+## Wednesday, June 17, 2020
+This morning,  I collected screenshots of the data from the temperature and humitiy sensors and the Shelly 1PM meter from Grafana to include in this post. Figures 1 and 2 contain the data from the sensor in my bedroom. Figures 3 and 4 contain the data from the sensor in the living room. Figures 5 and 6 contain the data from the sensor that is outside. Figures 7 through 11 contain the data from the Shelly 1PM meter, when it is plugged into the Raspberry Pi. In Figure 7, power decreases at 10:38:40, spikes at 16:11:20, increases at about 19:00, and increases at 7:00:00. There is still a small amount of flucuation in the power, however the amount of flucuations varies thoughout the day. As a result, I think that the flucuation is associated with the Shelly 1PM meter and with the load that it is taking measurements from. 
 
+![image](https://user-images.githubusercontent.com/65566903/84924285-c8d02300-b074-11ea-92b9-b5ed78d79b48.png) <br>
+**Figure 1: The temperature data from the sensor in my bedroom.** <br>
+![image](https://user-images.githubusercontent.com/65566903/84924512-15b3f980-b075-11ea-8833-073c5cb1b5bd.png) <br>
+**Figure 2: The humidity data from the sensor in my bedroom.** <br>
+![image](https://user-images.githubusercontent.com/65566903/84924542-21072500-b075-11ea-9ab9-7e580dfa072f.png) <br>
+**Figure 3: The temperature data from the sensor in the living room.** <br>
+![image](https://user-images.githubusercontent.com/65566903/84924550-25cbd900-b075-11ea-982f-8fc77b0b05cd.png) <br>
+**Figure 4: The humidity data from the sensor in the living room.** <br>
+![image](https://user-images.githubusercontent.com/65566903/84924570-2ebcaa80-b075-11ea-8080-2f60a57cc754.png) <br>
+**Figure 5: The temperature data from the sensor outside on the porch.** <br>
+![image](https://user-images.githubusercontent.com/65566903/84924611-3e3bf380-b075-11ea-80ef-f19a15ece02a.png) <br>
+**Figure 6: The humidity data from the sensor outside on the porch.** <br>
 
-
+![image](https://user-images.githubusercontent.com/65566903/84927329-249cab00-b079-11ea-8839-898d6415584b.png) <br>
+**Figure 7: The power data from the Shelly 1PM meter** <br>
+![image](https://user-images.githubusercontent.com/65566903/84927358-2ebea980-b079-11ea-8291-f00bcb4f8501.png) <br>
+**Figure 8: The incrementing energy counter data from the Shelly 1PM meter** <br>
+![image](https://user-images.githubusercontent.com/65566903/84927378-38481180-b079-11ea-8240-d2798bd26a29.png) <br>
+**Figure 9: The temperature data in fahrenheit from the Shelly 1PM meter** <br>
+![image](https://user-images.githubusercontent.com/65566903/84927398-41d17980-b079-11ea-84fc-0ef5af95c081.png) <br>
+**Figure 10: The temperature data in celsius from the Shelly 1PM meter** <br>
+![image](https://user-images.githubusercontent.com/65566903/84927422-4b5ae180-b079-11ea-92ab-b5daec2acd0c.png) <br>
+**Figure 11: The power data from the Shelly 1PM meter** <br>
 
 
 
