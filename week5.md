@@ -49,7 +49,7 @@ This morning,  I collected screenshots of the data from the temperature and humi
 ![image](https://user-images.githubusercontent.com/65566903/84927398-41d17980-b079-11ea-84fc-0ef5af95c081.png) <br>
 **Figure 10: The temperature data in celsius from the Shelly 1PM meter** <br>
 ![image](https://user-images.githubusercontent.com/65566903/84927422-4b5ae180-b079-11ea-92ab-b5daec2acd0c.png) <br>
-**Figure 11: The power data from the Shelly 1PM meter** <br>
+**Figure 11: The overtemperature data from the Shelly 1PM meter** <br>
 
 
 
