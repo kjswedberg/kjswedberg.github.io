@@ -25,7 +25,7 @@ All that needed to be done to have Telegraf send InfluxDB the data from both the
 This afternoon, I started working through DataCamp's Introduction to Python course.
 
 ## Wednesday, June 17, 2020
-This morning,  I collected screenshots of the data from the temperature and humitiy sensors and the Shelly 1PM meter from Grafana to include in this post. Figures 1 and 2 contain the data from the sensor in my bedroom. Figures 3 and 4 contain the data from the sensor in the living room. Figures 5 and 6 contain the data from the sensor that is outside. Figures 7 through 11 contain the data from the Shelly 1PM meter, when it is plugged into the Raspberry Pi. In Figure 7, power decreases at 10:38:40, spikes at 16:11:20, increases at about 19:00, and increases at 7:00:00. There is still a small amount of flucuation in the power, however the amount of flucuations varies thoughout the day. As a result, I think that the flucuation is associated with the Shelly 1PM meter and with the load that it is taking measurements from. 
+This morning,  I collected screenshots of the data from the temperature and humitiy sensors and the Shelly 1PM meter from Grafana to include in this post. Figures 1 and 2 contain the data from the sensor in my bedroom. Figures 3 and 4 contain the data from the sensor in the living room. Figures 5 and 6 contain the data from the sensor that is outside. Figures 7 through 11 contain the data from the Shelly 1PM meter, when it is plugged into the Raspberry Pi. In Figure 7, power decreases at 10:38:40, spikes at 16:11:20, increases at about 19:00, and increases at 7:00:00. There is still a small amount of flucuation in the power, however the amount of flucuations varies thoughout the day. As a result, I think that the flucuation is associated with the Shelly 1PM meter and with the load that it is taking measurements from. This flucuation is minimal enough to where it should not be an issue.
 
 ![image](https://user-images.githubusercontent.com/65566903/84924285-c8d02300-b074-11ea-92b9-b5ed78d79b48.png) <br>
 **Figure 1: The temperature data from the sensor in my bedroom.** <br>
@@ -51,5 +51,5 @@ This morning,  I collected screenshots of the data from the temperature and humi
 ![image](https://user-images.githubusercontent.com/65566903/84927422-4b5ae180-b079-11ea-92ab-b5daec2acd0c.png) <br>
 **Figure 11: The overtemperature data from the Shelly 1PM meter** <br>
 
-
+This morning, I attended the ACEP-USARC Virtual Alaska Electric Vehicle (EV) Workshop. During the afternoon, I worked more on the Introduction to Python course and I completed the required lab worker training found at [https://www.uaf.edu/safety/training/required-lab-worker-training.php](https://www.uaf.edu/safety/training/required-lab-worker-training.php). I also read through the "Electrical Safety In The Laboratory" document that was sent over Discord.
 
