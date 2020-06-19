@@ -53,3 +53,21 @@ This morning,  I collected screenshots of the data from the temperature and humi
 
 This morning, I attended the ACEP-USARC Virtual Alaska Electric Vehicle (EV) Workshop. During the afternoon, I worked more on the Introduction to Python course and I completed the required lab worker training found at [https://www.uaf.edu/safety/training/required-lab-worker-training.php](https://www.uaf.edu/safety/training/required-lab-worker-training.php). I also read through the "Electrical Safety In The Laboratory" document that was sent over Discord.
 
+## Thursday, June 18, 2020
+Last night at about 22:21:58, the Grafana stopped recieving data from the Shelly 1PM meter and the temperature and humidity sensors. This morning, I tried to figure out why this happened. This morning, the Raspberry Pi was on, but the command terminals had closed. In the Shelly Cloud app, cloud was disabled and the IP address for the web interface had changed. On the web interface, the checkbox that enabled the MQTT server had to be re-checked. The settings for the MQTT server were not changed. After checking these things, I started sending the data from the sensors to the MQTT server running on the Raspberry Pi's localhost IP address. After starting Telegraf with both config files, Grafana started recieving data agian.
+
+One reason why this issue occured could be due to a very brief power glitch. This would cause the Shelly 1PM meter to turn off for a brief moment and cause the Raspberry Pi to loose power during that time. The other possible reason is that the Shelly 1PM meter did an update or something happened internally to cause it to restart. During the night, I did hear a click that sounded like the click that occurs when the Shelly meter turns the load off/on from the app. However, when the load was turned on/off from the app, the web interface IP address did not change. After the click, the lights from the Shelly meter and the Raspberry Pi were all on. When I checked the data that Grafana had collected right before this issue occured, it had not overheated and the power was not close to its maximun power. So, the actual reason for the issue is unknown. Because Cloud was disabled in the Shelly Cloud app and because the web interface IP address had changed, my current hypothesis is an update was done. Since the App Store does not have a record of the Shelly Cloud app updating, the update would have had to happen on the device itself. 
+
+Today, I also reviewed the pandas-to-influx.ipynb file. While going through it, I had to look up some of the methods to see what they do. I also tried to go through the Python code that is on the dca_modbus-tig GitHub site. Based off my previous knowledge of computer programming, I could understand that most of the code were functions. However, a I could not figure out what a lot of the methods did. Because the Eaton project may envolve doing similar stuff that these scripts do, I want to try to understand what is happening with each of the functions. As a result, I want to try to go through DataCamp's advanced Python and pandas course. I finished the Introduction to Python course today, and the advanced Python and pandas course are the next two courses on DataCamp's Python plan.  
+
+
+
+
+
+
+
+
+
+
+
+
