@@ -62,10 +62,18 @@ Today, I also reviewed the pandas-to-influx.ipynb file. While going through it, 
 
 ## Friday, June 6, 2020
 
+This morning, I reviewed the documents that are in the Documentation_Maintenance folder for the Solar Test Site. This was for preperation for the meeting on Monday.
 
+Late morning and early afternoon, I researched information about the wavelengh and travel of radio waves. Specifically, I looked for information about radio waves that are at the frequency of 433 MHz. This is the frequency that the temperature and humidity sensors chirp to and that the RTL_SDR is set-up to pick up. Wavelength is calculated by dividing the speed of light by the frequency. The speed of light is about 3.0 x 10<sup>8</sup> meters per seconds. So, a frequency of 433 MHz has a wavelength of 69.28 centimeters (27.28 inches). The expected range for 433 MHz is about 100 to 300 feet outdoes and 30 to 100 feet indoors ([EDN, 2014](https://www.edn.com/using-433-mhz-for-wireless-connectivity-in-the-internet-of-things/)). This range does assume a helical antenna and a transmitter. Electromagnetic waves do not require a medium to travel through. As a result, they can travel though a vacuum, air, and through solid materials. ([NASA Science, 2010](http://science.nasa.gov/ems/02_anatomy)). AM and FM radio waves travel farther than the electromagnetic waves of 433 MHz. If this was not the case, car radios may have difficulty picking up the radio waves. AM radio waves are in the frequency range of 535 to 1605 kHz. FM radio waves are in the frequency of 88 to 108 MHz [Georgia State University](http://hyperphysics.phy-astr.gsu.edu/hbase/Audio/radio.html). As a result, it can be assumed that lower frequencies can travel farther. Thus, larger wavelengths can travel farther.
 
+References
+EDN. (2014, November 12). Using 433 MHz for wireless connectivity in the Internet of Things. Retrieved June 19, 2020, from [https://www.edn.com/using-433-mhz-for-wireless-connectivity-in-the-internet-of-things/](https://www.edn.com/using-433-mhz-for- wireless-connectivity-in-the-internet-of-things/) 
 
+Georgia State University. (n.d.). AM and FM Radio Frequencies. Retrieved June 19, 2020, from [http://hyperphysics.phy-astr.gsu.edu/hbase/Audio/radio.html](http://hyperphysics.phy-astr.gsu.edu/hbase/Audio/radio.html)
 
+National Aeronautics and Space Administration, Science Mission Directorate. (2010). Anatomy of an Electromagnetic Wave. Retrieved June 19, 2020, from [http://science.nasa.gov/ems/02_anatomy](http://science.nasa.gov/ems/02_anatomy))
+
+During the afternoon, I worked on the Introduction to Shell DataCamp course.
 
 
 
