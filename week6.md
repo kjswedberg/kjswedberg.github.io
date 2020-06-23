@@ -5,4 +5,7 @@ This morning, I re-started Telegraf on the Raspberry Pi. Due to a power outage y
 
 I also started working on creating slides for a presentation about the Shelly 1PM meter.
 
-I started the Intermediate Python course with DataCamp this afternoon. I have a maintenace training meeting this afternoon at the Solar Site. 
+During the afternoon, I started the Intermediate Python course with DataCamp. I also attending a meeting at the Solar Site. 
+
+## Tuesday, June 23, 2020
+This morning, I started the final report that is required for this internship. During the late morning and early afternoon, I completed the Intermediate Python course through DataCamp. I also reviewed information on three-phase power.
