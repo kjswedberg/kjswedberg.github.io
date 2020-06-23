@@ -1,6 +1,9 @@
-# Things to work on
+# Tasks to work on
 
-- [ ] Work on Shelly Meter Presentation <br>
-- [ ] Start Final Report <br>
-- [ ] Learn more Python <br>
 - [ ] Review 3-phase Power <br>
+
+# Continuing tasks
+- [ ] Shelly Meter Presentation <br>
+- [ ] Internship Presentation <br>
+- [ ] DataCamp courses <br>
+- [ ] Final Report <br>
