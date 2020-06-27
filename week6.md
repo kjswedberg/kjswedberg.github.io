@@ -33,7 +33,7 @@ This morning, I got the [WireViz tool](https://github.com/formatc1702/WireViz) t
 This afternoon, I worked on learning how to use the [WireViz tool](https://github.com/formatc1702/WireViz). I used the tool to show how I installed an extension cord to the Shelly 1PM meter. I then experiemented with the different color options. The resulting diagram is shown in Figure 2. On Monday, I am planning on learning and experiementing with some of the other settings, like the wire gauge and the connector type.
 
 ![Shelly](https://user-images.githubusercontent.com/65566903/85906187-03933300-b7ba-11ea-8655-a36b352f8520.png) <br>
-**Figure 2: The wiring diagram for the Shelly 1PM meter.
+**Figure 2: The wiring diagram for the Shelly 1PM meter.** <br>
 
 
 
