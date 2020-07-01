@@ -58,8 +58,8 @@ When using the Shelly meter to measure the power that needs to be supplied by a 
 
 ## Wednesday, July 1, 2020
 
+This morning, I started working on the slides for the internship presentation that I am required to do in a few weeks. Although I can only do a draft, I figured I would start on it today, while I have the time to do so. This will allow me to be able to focus on proofreading the slides during the week of this presentation. By the time of the presentation, some of the slides may need to be revised. While creating them today, I tried to make them as general as possible, so that the revisions can be minimal and done easily. I am having difficulty finding a background image for the cover slide. Since I have started working on this early, I should be able to resolve this the week of the presentation.
 
-
-
+During the afternoon, I started working on DataCamp's Data Manipulation with Python Skill Track. The course in the track that I worked on today is the Data Manipulation with Pandas course.
 
 
