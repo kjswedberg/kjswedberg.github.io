@@ -19,14 +19,37 @@ The ip_address was found using `ifconfig` and the routers was found with `route 
 
 Today, I finished DataCamp's Data Processing in Shell course.
 
-On the Shelly Cloud app, I set the Correction Coefficient to 0.85. The reason behind this was to try to make the Shelly Meter more accurate. Using a Clamp-On Amp meter and a digital multimeter, I measured the current and the voltage of a hair dryer on three settings. I then calculated the power and compared that power with what the Shelly Meter measured. Table 1 contains the data that was collected to make the Shelly meter more accurate. The measured power was calculated by taking the product of the measured voltage and the measured current. The percent error is between the measured power and the power that was measured by the Shelly. The theoritical max power was calculated with the formula P=2*V*I. The measurements are RMS values. To get the peak value from RMS, the RMS value is multiplied by the square root of 2. So the formula for the max power has an addition 2 in it. From the measurements that were taken, the highest percent error was 4.62 %. The power that was measured by the Shelly is always lower than the theoritical max power. 
+On the Shelly Cloud app, I set the Correction Coefficient to 0.85. The reason behind this was to try to make the Shelly Meter more accurate. Using a Clamp-On Amp meter and a digital multimeter, I measured the current and the voltage of a hair dryer on three settings. I then calculated the power and compared that power with what the Shelly Meter measured. The list below contains the data that was collected to make the Shelly meter more accurate. The measured power was calculated by taking the product of the measured voltage and the measured current. The percent error is between the measured power and the power that was measured by the Shelly. The theoritical max power was calculated with the formula P=2*V*I. The measurements are RMS values. To get the peak value from RMS, the RMS value is multiplied by the square root of 2. So the formula for the max power has an addition 2 in it. From the measurements that were taken, the highest percent error was 4.62 %. The power that was measured by the Shelly is always lower than the theoritical max power. 
 
+- Hair Dryer Setting: Low, Cool
+    - Measured Voltage: 119.5 V
+    - Measured Curren: 3.2 A
+    - Measured Power: 382.4 W
+    - Power Measured by Shelly: 396 W
+    - Percent Error: 3.56 %
+    - Theoritical Max Power: 768 W
+- Hair Dryer Setting: Low, Warm
+    - Measured Voltage: 117.5 V
+    - Measured Curren: 5.8 A
+    - Measured Power: 681.5 W
+    - Power Measured by Shelly: 713 W
+    - Percent Error: 4.62 %
+    - Theoritical Max Power: 1,392 W
+- Hair Dryer Setting: Low, Hot; 
+    - Measured Voltage: 116.2 V
+    - Measured Curren: 8.7 A
+    - Measured Power: 1,011 W
+    - Power Measured by Shelly: 1,000 W
+    - Percent Error: 1.09 %
+    - Theoritical Max Power: 2,088 W
+<!---
 **Table 1: The data collected and used to make the Shelly more accurate.**
 | Hair Dryer Setting | Measured Voltage | Measured Current | Measured Power | Power Measured by Shelly | Percent Error | Theoritical Max Power | 
 | ------------------ | ---------------- | ---------------- | -------------- | ------------------------ | ------------- | --------------------- | 
 |     Low, Cool      |     119.5 V      |      3.2 A       |    382.4 W     |           396 W          |     3.56 %    |        768 W          | 
 |     Low, Warm      |     117.5 V      |      5.8 A       |    681.5 W     |           713 W          |     4.62 %    |        1,392 W        | 
 |     Low, Hot       |     116.2 V      |      8.7 A       |    1,011 W     |          1,000 W         |     1.09 %    |        2,088 W        | 
+-->
 
 After setting up the Shelly Meter with the Raspberry Pi again, the power was measured by the Shelly Meter to be 9.360 W. The current measured by the meter on the USB power adapter for the Raspberry Pi read 1.71 A. Assuming that it is accurate and that the voltage really is 5 V, then the power should be 8.55 W. This is less than a watt difference. When the clamp-on amp meter was used to try to measure the current, the meter did not measure the current. Before when this meter did not work to measure things, it was because the load had a variable resistor in it or the load did not pull enough current for the meter to read. These reasons may be the case with the Raspberry Pi. 
 
