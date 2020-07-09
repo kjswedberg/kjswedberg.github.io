@@ -24,7 +24,11 @@ When I plugged it in the Vodafone Mobile Broadband USB Stick today, the Raspberr
 The spreadsheet that contains the power measurements for the Raspberry Pi and the different devices can be found [here](https://docs.google.com/spreadsheets/d/17GJ9YTvDMcEH1WpFeCocZOULSqIYiJgjLDqLi2Exdtg/edit?usp=sharing).
 
 
+## Wednesday, July 8, 2020
 
+Today, I worked on setting up the PZEM-016 Modbus RTU Meter. This involved wiring it to a load, connecting the USB device to the meter, connecting the current clamp to the meter, and finding the software to view the data. 
+
+Part of the afternoon was spent updating the final report and the presentation slides. I also worked some on one of DataCamp's courses that involves Pandas.
 
 
 
