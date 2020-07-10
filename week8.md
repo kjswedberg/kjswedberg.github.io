@@ -26,9 +26,19 @@ The spreadsheet that contains the power measurements for the Raspberry Pi and th
 
 ## Wednesday, July 8, 2020
 
-Today, I worked on setting up the PZEM-016 Modbus RTU Meter. This involved wiring it to a load, connecting the USB device to the meter, connecting the current clamp to the meter, and finding the software to view the data. 
+Today, I worked on setting up the PZEM-016 Modbus RTU Meter. This involved wiring it to a load, connecting the USB device to the meter, connecting the current clamp to the meter, and finding the software to view the data. The load is connected to 2 sections of an extension cord. I did a search in Google Images to find other wiring diagrams for setting up the meter. The one that I followed is on the [AliExpress](https://www.aliexpress.com/i/32912734749.html) website. I also used the notes that [PDAControl](https://pdacontrolen.com/initial-review-meter-pzem-016-modbus-rtu-rs485-by-peacefair/) made to set it up the meter and my Windows computer with the Peacefair software. T I set it the software on a Windows computer, since the [PDAControl notes](https://pdacontrolen.com/initial-review-meter-pzem-016-modbus-rtu-rs485-by-peacefair/) said that the software was for Windows. he software can be downloaded at the end of the [PDAControl](https://pdacontrolen.com/initial-review-meter-pzem-016-modbus-rtu-rs485-by-peacefair/) page or from [Mediafire](http://www.mediafire.com/file/dh4jezdiumq49i0/PZEM014%252C016-Master-English.zip/file). The Mediafire download contains a text file that contains the instructions for installing the software. To install and run the software, the PZEM-016 meter is plugged into a computer.  After the device is installed, the file run.bat  was opened by selecting "run as administrator". After running the run.bat file, the PZEM014-Master.exe could be ran. 
 
 Part of the afternoon was spent updating the final report and the presentation slides. I also worked some on one of DataCamp's courses that involves Pandas.
+
+## Thursday, June 9, 2020
+
+Today, I used the PZEM-016 Modbus RTU Meter to repeat the measurements that I did with the Shelly 1PM on Monday and Tuesday. The spreadsheet that am putting my measurements in can be found [here](https://docs.google.com/spreadsheets/d/17GJ9YTvDMcEH1WpFeCocZOULSqIYiJgjLDqLi2Exdtg/edit?usp=sharing). 
+
+I am still having issues getting the Vodafone Mobile Broadband USB Stick to work, so I have not been able to compare the power usage of the Wireless N Nano Router with that. The Raspberry Pi sees the Vodafone USB Stick as a drive. However, when I try to open the drive, the Raspberry Pi says that it is not a valid drive. The instructions that I am trying to follow can be found [here](https://github.com/acep-uaf/acep_config/tree/master/cell_modem). After following them, the log file makes it sound like the Raspberry Pi cannot find the device.
+
+I looked some into moving data to the tig-playground today. On the Grafana webpage, there is a [page](https://grafana.com/docs/grafana/latest/reference/export_import/) that contains instructions for exporting an importing dashboards. Tommorrow, I am planning on setting the Raspberry Pi to collect data from the temperature and humidity sensors. I want to then use the Shelly 1PM meter to measure the power usage of the Raspberry Pi over the weekend. I want to then send that power data to the tig-playground. If importing the dashboard does not work, then there is an Influx datasource set up for me that I can learn to use.
+
+## Friday, June 10, 2020
 
 
 
