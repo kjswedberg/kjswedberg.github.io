@@ -40,6 +40,14 @@ I looked some into moving data to the tig-playground today. On the Grafana webpa
 
 ## Friday, June 10, 2020
 
+Today, I worked on getting the power measurements from the Shelly 1PM onto the Tig-Playground. Currently, the Shelly 1PM meter is measuring the power that is being consumed by the Raspberry Pi with the Silver RTL-SDR and the 13.3 Inch Display. The Raspberry Pi does have a screensaver enabled and the screensaver is set to a black screen. I am planning on collecting data with the 13.3 Inch Display until Monday morning. Figure 1 shows the dashboard of the power usage that was set up on the TIG Playground. Figure 2 shows the dashboard containing the temperature and humidity sensors that the Raspberry Pi is collecting with the Silver RTL-SDR. I am planning on collecting data with the 13.3 Inch screen over the weekend.
 
+![image](https://user-images.githubusercontent.com/65566903/87207229-ebdaa500-c2b7-11ea-8f78-5b0f1693f22e.png) <br>
+**Figure 1: The Power Usage Panel for the Shelly 1PM Raspberry Pi Measurements Dashboard on the TIG-Playground.** <br>
 
+![image](https://user-images.githubusercontent.com/65566903/87207497-7d4a1700-c2b8-11ea-9dbe-85635531ccc9.png) <br>
+**Figure 2: The Temperature and Humidity Panels for the Acurite Weather Sensors Dashboard on the Tig Playground.** <br>
 
+Three times this morning, the Shelly Meter did not seem to be actually sending data to the MQTT server. When running the mosquitto_sub command to view the Shelly data, an error saying that the network is unreachable would appear. The only fix to this problem that I could find was to unplug the Shelly meter, delete the Shelly meter device from the app, and re-set up the device with the app. This also included re-setting up the MQTT settings on the web interface. So far, after completing these steps three times, it has not had this issue again. 
+
+I also worked some more on DataCamp's Python courses on Pandas
