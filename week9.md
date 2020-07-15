@@ -8,5 +8,13 @@ I also set up the Raspberry Pi with the 7 inch touchscreen display. For the next
 
 This afternoon, I worked on the presentation for Friday and more on a DataCamp course about Pandas.
 
+## Tuesday, July 14, 2020
+
+This morning, I worked more on the presentation for Friday and more on learning about Pandas through DataCamp.
+
+During the afternoon, I worked on figuring out how to calculate the battery backup size for the SSN project. The hard part about this is figuring out the formula for the Volt-Ampere (VA). As I find the formulas that contain the variables that I have, I have been creating a calculator in the Raspberry Pi Power Measurements Spreadsheet that will calculate the battery backup size as values change. Tomorrow, I need to make a current measurement for the battery backup calculation. 
+
+
+
 
 
