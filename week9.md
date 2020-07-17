@@ -29,4 +29,6 @@ I updated the [Raspberry Pi Power Measurements Spreadsheet](https://docs.google.
 
 I also updated the Battery Backup Calculations document that I started yesterday. This mainly involved changing the format of the equations, so that they were formated nicer. 
 
+## Thursday, July 16, 2020
 
+Today, I mainly focused on preparing for the presentation tomorrow. I also worked more on a course through DataCamp about Python and Pandas.
