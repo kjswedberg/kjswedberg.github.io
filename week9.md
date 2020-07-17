@@ -32,3 +32,11 @@ I also updated the Battery Backup Calculations document that I started yesterday
 ## Thursday, July 16, 2020
 
 Today, I mainly focused on preparing for the presentation tomorrow. I also worked more on a course through DataCamp about Python and Pandas.
+
+## Friday, July 17, 2020
+
+Today, I worked on the final report. I added text to the discussion section. I think that I will eventually needed to shorten the document closer to the end of the summer. Right now, the final report contains 1038 words. However, the maximum length based off of the ACEP Utility Student Internship Handbook, the maximum length is 1,000 words. I have determined that I can remove the section involving collecting data from temperature and humidity sensors and the section involving the power measurements for the SSN building kits. This will allow 277 more words. As of right now, the conclusion is the only section that is left. However, other sections will most likely be edited later on. 
+
+I found an option in Research Workspace today to create a Jupyter Notebook, edit it, and run it. I tried opening a Jupyter Notebook in the Research Workspace editor and running part of it. Currently, my plan is to upload the Jupyter Notebook that I started on Wednesday to the Research Workspace, and try to finish it in the Research Workspace editor. I also got added to the Remote Community Renewable Energy project on the Research Workspace. For the datasets in that project that I have access to, I am going to set up my own folder in the Processing Folder, and copy a dataset from the Publication folder and a copy of the Jupyter Notebook that I started into my own folder. 
+
+I also started thinking about what I want to do for the Vodcast. 
