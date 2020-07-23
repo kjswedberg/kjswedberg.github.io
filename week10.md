@@ -13,4 +13,10 @@ Today, I worked more on the Jupyter Notebook on the Remote Community Renewable E
 I also worked more on the slides for the Vodcast. 
 
 
+## Wednesday, July 22, 2020
+
+Today, I focused on making a draft of the Vodcast. I also worked some on the final report.
+
+I also pushed some data from the Remote Community Renewable Energy Research Workspace to the TIG-Playground. I removed the microsecond and nanosecond precision in the script, since Grafana does not use them by default. I think that the data was there on Tuesday. I think that Grafana had the timezone set to the time of my computer and that the data was UTC time.
+
 
