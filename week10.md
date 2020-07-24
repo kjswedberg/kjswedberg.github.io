@@ -20,3 +20,9 @@ Today, I focused on making a draft of the Vodcast. I also worked some on the fin
 I also pushed some data from the Remote Community Renewable Energy Research Workspace to the TIG-Playground. I removed the microsecond and nanosecond precision in the script, since Grafana does not use them by default. I think that the data was there on Tuesday. I think that Grafana had the timezone set to the time of my computer and that the data was UTC time.
 
 
+## Thursday, July 23, 2020
+
+Today, I edited the Vodcast.
+
+I also tried using the Jupyter Notebook script with some other files on the RCRE RW. From what I can tell, the script works for the BusMeter.nc, Gen.nc, and Load2wo.nc files for the different tests. The majority of the other files cause the error saying that the iterator is too large. However, two from Test1.1 have the error  `maximum supported dimension for an ndarray is 32, found 37`. There are 37 time coordinates in the Load1elspec.nc file (time1 - time37). The data is associated with different, but only one, time coordinates. The differences between the times are on the microsecond range. One solution is to change the coordinates from time2 to time37 to time1. Then, the data would only be associated with time1 and time2 to time37 could be removed from the dataset. However, I have not found a way to do this. 
+
