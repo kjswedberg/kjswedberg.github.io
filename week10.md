@@ -26,3 +26,8 @@ Today, I edited the Vodcast.
 
 I also tried using the Jupyter Notebook script with some other files on the RCRE RW. From what I can tell, the script works for the BusMeter.nc, Gen.nc, and Load2wo.nc files for the different tests. The majority of the other files cause the error saying that the iterator is too large. However, two from Test1.1 have the error  `maximum supported dimension for an ndarray is 32, found 37`. There are 37 time coordinates in the Load1elspec.nc file (time1 - time37). The data is associated with different, but only one, time coordinates. The differences between the times are on the microsecond range. One solution is to change the coordinates from time2 to time37 to time1. Then, the data would only be associated with time1 and time2 to time37 could be removed from the dataset. However, I have not found a way to do this. 
 
+## Friday, July 24, 2020
+
+Today, I worked on the Jupyter Notebook script and tried to come up with a solution for the various time coordinates. 
+
+I also worked more on the vdcast and the final report.
