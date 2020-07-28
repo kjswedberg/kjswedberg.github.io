@@ -16,7 +16,12 @@
 
 ## Wednesday, August 5, 2020
 
-- [ ] Make last edits to final report at vodcast (update section about jupyter notebook scripts?)
+- [ ] Make last edits to vodcast 
+- [ ] Update sections on final repot about jupyter notebook scripts?
+	- [ ] Methodology: Check last paragraph
+	- [ ] Results 
+	- [ ] Conclusion: Last few lines
+
 
 ## Thursday, August 6, 2020
 
