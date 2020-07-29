@@ -8,7 +8,6 @@ I also worked more on the Jupyter Notebook script in the RCRE RW. I figured out 
 
 ## Tuesday, July 28, 2020
 
-Finish paragraphs in final report
+Today, I worked more on the final report and the Jupyter Notebook script. I was able to get the Jupyter Notebook script to convert the dataset to a Pandas Dataframe. However, the DataFrame contains 1,268,365 rows. As a result, the script is not able to send the DataFrame to the TIG-Playground currently. The DataFrame may need to be broken up by using a for loop, or the editing that is done to the DataFrame may need to be completed inside the for loop that converts the dataset to a DataFrame. By doing the later option, the user will not be able to see the data to confirm that the editing did what was expected before the data is sent to the TIG-Playground.
 
-Work more on Jupyter Notebook Script
 
