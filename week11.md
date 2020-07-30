@@ -11,3 +11,13 @@ I also worked more on the Jupyter Notebook script in the RCRE RW. I figured out 
 Today, I worked more on the final report and the Jupyter Notebook script. I was able to get the Jupyter Notebook script to convert the dataset to a Pandas Dataframe. However, the DataFrame contains 1,268,365 rows. As a result, the script is not able to send the DataFrame to the TIG-Playground currently. The DataFrame may need to be broken up by using a for loop, or the editing that is done to the DataFrame may need to be completed inside the for loop that converts the dataset to a DataFrame. By doing the later option, the user will not be able to see the data to confirm that the editing did what was expected before the data is sent to the TIG-Playground.
 
 
+## Wednesday, July 29, 2020
+
+This morning, I set up Visual Studio with Python on my computer and looked into setting it up with C++. This was so that I could start becoming familar with the program. I also looked some at the GitHub guides that were posted to the Discord hacking-chat.
+
+I also finished the Jupyter Notebook script today. Because of the large DataFrames that sometimes occur with the script, the user has to specify which rows to send. This way, the data can be sent in smaller groups. After finishing the script, I sent the Test 1.1 Load1elspec data to the TIG-Playground. I set up the script to send about 100,000 rows of data at a time to the TIG-Playground. 
+
+After finishing the Jupyter Notebook script, I edited and proofread the final report.
+
+
+
