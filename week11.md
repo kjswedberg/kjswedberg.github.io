@@ -19,5 +19,13 @@ I also finished the Jupyter Notebook script today. Because of the large DataFram
 
 After finishing the Jupyter Notebook script, I edited and proofread the final report.
 
+## Thursday, July 30, 2020
 
+This morning, I worked on the Grafana Dashboards for the BusMeter and Load1elspec data on the TIG-Playground. I organized the panels by variable name. So, all the variables starting with Ia are together and all the variables starting with Va are together.
+
+I tested the Jupyter Notebook script with other datasets on the RCRE RW from Test 1.1. The script works to convert all the datasets from Test 1.1 into a DataFrame and then edit the DataFrame into a form that can be send to the TIG-Playground. As with the Load1elspec data, the script will require that the user specifies a range of rows to send. The DataFrame may need to be send in several smaller groups, since it may be too large to send all the data at once. From my current knowledge, the datasets from the other tests are a similar format. As a result, this script will most likely work with the datasets from the other tests. When testing the script with the datasets from Test 1.1, the two lines that send the data to the TIG-Playground were not run.
+
+When reviewing the Jupyter Notebook script, I found a mistake in it. The mistake caused only the variables that were associated with the last time coordinate to be sent to the TIG-Playground. So I fixed that today and resent the Load1elspec data to the TIG-Playground.
+
+During the afternoon, I finished the DataCamp course on merging DataFrames that I started a while ago.
 
