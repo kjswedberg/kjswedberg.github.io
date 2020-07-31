@@ -29,3 +29,12 @@ When reviewing the Jupyter Notebook script, I found a mistake in it. The mistake
 
 During the afternoon, I finished the DataCamp course on merging DataFrames that I started a while ago.
 
+## Friday, July 31, 2020
+
+Today, I gathered the documentation files and other documents that I have written for this internship into one folder on Google Drive. 
+
+I looked at the Jupyter Notebook script on the RCRE RW that Matt Perry has been working on. 
+
+I also proofread the final report. I added a section to the final report that contained images of some of the visualized data from Grafana.
+
+I also worked some on a DataCamp course.
