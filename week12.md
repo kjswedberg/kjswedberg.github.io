@@ -23,9 +23,18 @@ I also worked more a DataCamp course.
 
 ## Tuesday, August 4, 2020
 
-- [ ] Work on creating Pandas DataFrames from the Eaton sample dataset files 
+Today, I tried to convert the meter event files into a DataFrame. Each event has three files. For each event, there are .cfg, .dat, and .hdr files. This makes it seem to be a [COMTRADE](https://en.wikipedia.org/wiki/Comtrade#) file format. I figured out how to get the id's, which will be used as column names. The method that I found to create a dictionary is shown in Figure 1. However, the dictionary seems to be too large to print. After converting the dictionary to a DataFrame, I was able to print the head and tail of the DataFrame. When doing this, the DataFrame did not include a column with times. 
+
+![image](https://user-images.githubusercontent.com/65566903/89350457-8b434b80-d65c-11ea-981b-80fcacb1ebf4.png) <br>
+**Figure 1: The current method of creating the dictionary using a Jupyter Notebook script in the Research Workspace** <br>
+
+Once I was given the start timestamp and the end timestamp, I was able to create a timestamp list. Currently, the list is made up of strings. 
+
+
 
 ## Wednesday, August 5, 2020
+
+- [ ] Finish Meter DataFrame script?
 
 - [ ] Visualize DataFrames from the Eaton sample dataset files
 
