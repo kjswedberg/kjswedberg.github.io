@@ -23,25 +23,30 @@ I also worked more a DataCamp course.
 
 ## Tuesday, August 4, 2020
 
-Today, I tried to convert the meter event files into a DataFrame. Each event has three files. For each event, there are .cfg, .dat, and .hdr files. This makes it seem to be a [COMTRADE](https://en.wikipedia.org/wiki/Comtrade#) file format. I figured out how to get the id's, which will be used as column names. The method that I found to create a dictionary is shown in Figure 1. However, the dictionary seems to be too large to print. After converting the dictionary to a DataFrame, I was able to print the head and tail of the DataFrame. When doing this, the DataFrame did not include a column with times. 
+Today, I tried to convert the meter event files into a DataFrame. Each event has three files. For each event, there are .cfg, .dat, and .hdr files. This makes it seem to be a [COMTRADE](https://en.wikipedia.org/wiki/Comtrade#) file format. I was able to find a python module that worked to import the Comtrade files into the Jupyter Notebook script. The resource that I used to do this on the github site that is located [here](https://github.com/dparrini/python-comtrade). From this site, I figured out how to get the id's, which will be used as column names. The method that I used to create a dictionary is shown in Figure 1. However, the dictionary seems to be too large to print. After converting the dictionary to a DataFrame, I was able to print the head and tail of the DataFrame. When doing this, the DataFrame did not include a column with times. 
 
 ![image](https://user-images.githubusercontent.com/65566903/89350457-8b434b80-d65c-11ea-981b-80fcacb1ebf4.png) <br>
 **Figure 1: The current method of creating the dictionary using a Jupyter Notebook script in the Research Workspace** <br>
 
-Once I was given the start timestamp and the end timestamp, I was able to create a timestamp list. Currently, the list is made up of strings. 
+In the .cfg files, there are two timestamps. Assuming that one is the start timestamp and the other was the end timestamp, I was able to create a timestamp list. This was found using the physics equation t<sub>end<sub> = V * X + t<sub>start<sub>. For creating the timestamp list, t<sub>start<sub> is the starting timestamp, X is the row number, V is the rate, and t<sub>end<sub> is the timestamp at row X. Only the second, millisecond, and nanosecond part of the timestamp was used in this equation. The rate was caluclated with the equation (t<sub>end<sub> - t<sub>start<sub>) / X. Currently, the list is made up of strings. 
 
 
 
 ## Wednesday, August 5, 2020
 
-- [ ] Finish Meter DataFrame script?
+Today, I finished the timestamp list on the Jupyter Notebook script for the Meter Event files. I added the second, millisecond, and nanosecond timestamp list that was created yesturday and added the date, hour, and minute section to it. The equation that creates the timestamp list was changed, however the process that the list is created follows the same concepts. I then inserted the timestamp list into the DataFrame as a column and converted it from a string into a datetime object. It is important to remember that this timestamp column is based off of the assumptions that the timestamps in the .cfg file are the starting and ending timestamps and that the data is collected over a set interval. As a result, the timestamp column is currently only an assumption.
 
-- [ ] Visualize DataFrames from the Eaton sample dataset files
 
-- [ ] Update sections on final repot about jupyter notebook scripts?
-	- [ ] Methodology: Check last paragraph
-	- [ ] Results 
-	- [ ] Conclusion: Last few lines
+I sent the Foreseer and the Visual T&D DataFrames to the TIG-Playground to be visualized. I also updated the final report with the results from the visualization. Because the Meter Events timestamp column is based off of an assumption, that DataFrame has not been visualized.
+
+
+I also worked on a DataCamp course.
+
+
+
+
+
+
 
 
 ## Thursday, August 6, 2020
