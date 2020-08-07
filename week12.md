@@ -44,9 +44,7 @@ I also worked on a DataCamp course.
 
 ## Thursday, August 6, 2020
 
-- [ ] Proofread and submit final report and vodcast
-
-Today, I updated the Jupyter Notebook scripts to include plots of the DataFrames. While doing this, I created plots of the voltage phases to include in the final report. As a result, I worked on the results and conclusion sections to include the most recent information.
+Today, I updated the Jupyter Notebook scripts to include plots of the DataFrames. While doing this, I created plots of the voltage phases to include in the final report. As a result, I worked on the results and conclusion sections of the final report to include the most recent information.
 
 
 I also worked more on a DataCamp course.
