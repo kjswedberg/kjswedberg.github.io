@@ -52,4 +52,8 @@ I also worked more on a DataCamp course.
 
 ## Friday, August 7, 2020
 
-- [ ] Make sure that Final Report and Vodcast are submited
+Today, I sent the data from the meter event files to the TIG-Playground.
+
+I also worked on trying to finish a DataCamp course.
+
+Around mid-afternoon, I took a break from working on the computer and re-organized my workspace.
