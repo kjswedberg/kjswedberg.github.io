@@ -28,7 +28,7 @@ Today, I tried to convert the meter event files into a DataFrame. Each event has
 ![image](https://user-images.githubusercontent.com/65566903/89350457-8b434b80-d65c-11ea-981b-80fcacb1ebf4.png) <br>
 **Figure 1: The current method of creating the dictionary using a Jupyter Notebook script in the Research Workspace** <br>
 
-In the .cfg files, there are two timestamps. Assuming that one is the start timestamp and the other was the end timestamp, I was able to create a timestamp list. This was found using the physics equation t<sub>end<sub> = V * X + t<sub>start<sub>. For creating the timestamp list, t<sub>start<sub> is the starting timestamp, X is the row number, V is the rate, and t<sub>end<sub> is the timestamp at row X. Only the second, millisecond, and nanosecond part of the timestamp was used in this equation. The rate was caluclated with the equation (t<sub>end<sub> - t<sub>start<sub>) / X. Currently, the list is made up of strings. 
+In the .cfg files, there are two timestamps. Assuming that one is the start timestamp and the other was the end timestamp, I was able to create a timestamp list. This was found using the physics equation t<sub>end</sub> = V * X + t<sub>start</sub>. For creating the timestamp list, t<sub>start</sub> is the starting timestamp, X is the row number, V is the rate, and t<sub>end</sub> is the timestamp at row X. Only the second, millisecond, and nanosecond part of the timestamp was used in this equation. The rate was caluclated with the equation (t<sub>end</sub> - t<sub>start</sub>) / X. Currently, the list is made up of strings. 
 
 
 
