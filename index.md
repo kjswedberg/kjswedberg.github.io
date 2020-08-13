@@ -16,3 +16,4 @@ website. On this website, you can find updates on the projects that I working on
 * [Week 10](https://kjswedberg.github.io/week10)
 * [Week 11](https://kjswedberg.github.io/week11)
 * [Week 12](https://kjswedberg.github.io/week12)
+* [August 2020](https://kjswedberg.github.io/2020August)
