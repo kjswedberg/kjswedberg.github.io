@@ -1,9 +1,7 @@
 # Tasks to work on
 
-- [ ] Review 3-phase Power <br>
+- [ ] Meter Event Script <br>
+- [ ] Grafana Dashboards <br>
 
-# Continuing tasks
-- [ ] Shelly Meter Presentation <br>
-- [ ] Internship Presentation <br>
-- [ ] DataCamp courses <br>
-- [ ] Final Report <br>
+
+
