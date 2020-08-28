@@ -9,3 +9,7 @@ I worked more on the meter event Jupyter Notebook script today. I was able to mi
 ## August 20, 2020
 
 I worked on the Grafana dashboard that contains both the Visual T&D data and Foreseer data. This was done to allow the data from the two meter to be compared easier.
+
+## August 27, 2020
+
+Today, I experemented with the meter event Jupyter Notebook script. I tried to decrease some of the rounding error, but was not able to decrease it further. Since a time precision parameter was added to the command that sends the data to the TIG-Playground, I set up a new dashboard and a new measurement to visualize the data. With the parameter, some of the datapoints still seem to be missing. As a result, the current and voltage data are not smooth sinusoidal signals on the Grafana dashboard.
