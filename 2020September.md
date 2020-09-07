@@ -8,3 +8,4 @@ Adding a constant to the timestamp did work to create a timestamp list, where th
 ![image](https://user-images.githubusercontent.com/65566903/92414479-d5f33000-f100-11ea-88dc-5a3ba100fd06.png)
 **Figure 1: The code used to create the timestamp column**
 
+I also pushed this data to the TIG-Playground with the timstamp column that was generated today.
