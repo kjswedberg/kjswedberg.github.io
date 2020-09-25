@@ -9,3 +9,8 @@ Adding a constant to the timestamp did work to create a timestamp list, where th
 **Figure 1: The code used to create the timestamp column**
 
 I also pushed this data to the TIG-Playground with the timstamp column that was generated today.
+
+
+## September 25, 2020
+
+Today, I worked on a drawio diagram for the Eaton project. I started transfering the drawing of a diagram that I recieved during the meeting earlier in the day. 
