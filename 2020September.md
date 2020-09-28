@@ -14,3 +14,6 @@ I also pushed this data to the TIG-Playground with the timstamp column that was 
 ## September 25, 2020
 
 Today, I worked on a drawio diagram for the Eaton project. I started transfering the drawing of a diagram that I recieved during the meeting earlier in the day. 
+
+## September 28, 2020
+Today, I worked more on the drawio diagram for the Eaton project. I was able to finish transfering most of the drawing of the diagram from September 25 to the drawio diagram.
