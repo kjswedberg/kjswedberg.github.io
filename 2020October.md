@@ -13,3 +13,7 @@ Today, I worked more on the Eielson-Eaton-DataCollection_Diagrams.
 ## October 19, 2020
 
 Today, I worked on the Meter Event Jupyter Notebook script. I found a way to use linspace to simplifiy generating the timestamp column with minimal rounding error.
+
+## October 26, 2020
+
+I installed Python on my Windows 10 laptop by downloaded a exe file from python.org. The windows exe file installs an "IDLE" application to run python commands. When Python is installed using this method, it needs to be added to PATH. Otherwise, the command prompt cannot see that it has been install. The documentation that I wrote on how to install Python can be found [here](https://docs.google.com/document/d/12sHhiw5txSesbleHt-_Q4KMpa-jSpMhNcIE7BVjdjco/edit?usp=sharing). 
