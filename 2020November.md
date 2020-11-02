@@ -1,0 +1,3 @@
+## November 2, 2020
+
+Today, I installed Anaconda for Windows. My goal was to see if the Anaconda for Windows would install also install python. So, I first uninstalled python. The documentation on how I installed Anaconda can be found [here](https://docs.google.com/document/d/12sHhiw5txSesbleHt-_Q4KMpa-jSpMhNcIE7BVjdjco/edit?usp=sharing). Anaconda does install and allow one to use Jupyter Notebook and Spyder. However, after installing Anaconda, the command terminal would not display the version of python that was installed. So, the best method to install python from python.org. When both Anaconda are installed and python from python.ord, the both work as they should.
