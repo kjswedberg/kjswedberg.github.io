@@ -3,7 +3,7 @@
 On this website, you can find updates on the projects that I working on for an internship that is through the Alaska Center for Energy and Power [(ACEP)](http://acep.uaf.edu/).
 
 * [May, 2021](https://kjswedberg.github.io/2021May)
-* [April, 2021](https://kjswedberg.github.io/2021April)
+
 * [March, 2021](https://kjswedberg.github.io/2021March)
 * [February, 2021](https://kjswedberg.github.io/2021February)
 * [January, 2021](https://kjswedberg.github.io/2021January)
